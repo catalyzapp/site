@@ -9,7 +9,7 @@ $primaryColor-dark: #8CD7F5;
 
 body {
   font-family: $font-stack;
-  background: #f0fafd;
+  background: #f6EEFF;
   color: #4C4C4C;
 }
 
@@ -59,11 +59,11 @@ body {
     display: inline-block;
     font-size: 1.2em;
     padding: 10px 40px;
-    background: #75D5F2;
+    background: #cf49fc;
     border-radius: 3px;
     color: #fff;
     text-decoration: none;
-    background-color: $primaryColor;
+    background-color: #cf49fc;
     box-shadow: 0 0 8px 3px rgba(black,.1);
     transition: all .2s ease-in-out;
     &:hover {
@@ -73,7 +73,8 @@ body {
 }
 
 .slider-wrap  {
-  max-width: 768px;
+  max-width: 300px;
+  max-height: 700px;
   margin: 0 auto;
   margin-top: 48px;
   // padding-bottom: 36px;
